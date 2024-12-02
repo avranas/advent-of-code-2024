@@ -1,6 +1,6 @@
 from collections import Counter
 
-with open('day1input.txt', 'r') as file:
+with open('day1-input.txt', 'r') as file:
     nums = [s for s in file.read().split() if s]
 
 left = [int(num) for i, num in enumerate(nums) if i % 2 == 0]

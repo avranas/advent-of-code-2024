@@ -4,7 +4,7 @@ with open('day8-input.txt', 'r') as file:
     grid = [list(s) for s in file.read().split("\n")]
     
 ROWS = len(grid)
-COLS = len(grid)
+COLS = len(grid[0])
 
 cache = defaultdict(list)
 

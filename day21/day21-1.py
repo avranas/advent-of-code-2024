@@ -42,8 +42,8 @@ keys1 = []
 y = numCoordY["A"]
 x = numCoordX["A"]
 
-def dfs(directions):
-  if len(directions) == 1
+# def dfs(directions):
+#   if len(directions) == 1
 
 result = 0
 for line in lines:
